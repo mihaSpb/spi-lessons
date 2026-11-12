@@ -1190,7 +1190,13 @@
   .student-mobile-bar span { text-align:right; line-height:1.3; }
 }
 @media print { .student-mobile-bar { display:none !important; } }
-</style><style>@media(max-width:760px){html body .slide-title .lesson-visual .slide-table td{color:#17212b!important}}</style><meta name="robots" content="noindex,nofollow"><meta name="description" content="Аналитика и таблицы: девять практических задач, инструкции, промпты, Google книга и учебные файлы."></head>
+</style><style>@media(max-width:760px){html body .slide-title .lesson-visual .slide-table td{color:#17212b!important}}</style><meta name="robots" content="noindex,nofollow"><meta name="description" content="Аналитика и таблицы: девять практических задач, инструкции, промпты, Google книга и учебные файлы."><style>
+/* Кнопка «Редактор» скрыта в нашей версии — ученику редактор не нужен.
+   Сам блок кнопки оставлен в DOM, чтобы функция toggleEdit() не падала. */
+#sb-edit-btn{display:none!important}
+#edit-toolbar{display:none!important}
+</style>
+</head>
 <body>
 
 <div class="student-mobile-bar"><a href="files/lesson-kit.zip" download>Скачать материалы ↓</a><span>ШПИ · Аналитика и таблицы</span></div><div id="progress-bar"></div>

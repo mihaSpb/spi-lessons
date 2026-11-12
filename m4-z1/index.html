@@ -2193,6 +2193,12 @@ body.marquee-dragging { user-select: none !important; }
  .slide .slide-table{font-size:13px}
 }
 </style><meta name="description" content="Учебное занятие курса по ИИ Школы Практического Инвестирования: контекст AI-помощника, Personal OS, устройство работы агента и практика сборки рабочей папки с файлами."/>
+<style>
+/* Кнопка «Редактор» скрыта в нашей версии — ученику редактор не нужен.
+   Сам блок кнопки оставлен в DOM, чтобы функция toggleEdit() не падала. */
+#sb-edit-btn{display:none!important}
+#edit-toolbar{display:none!important}
+</style>
 </head>
 <body>
 <div id="progress-bar"></div>
