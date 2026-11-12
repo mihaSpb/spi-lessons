@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Что уже готово под ваши задачи · Занятие 3 · Курс по ИИ ШПИ</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Витрина готовых скиллов из занятия 3 «Скиллы и повторяемые инструкции»: 22 скилла в девяти категориях, все проверены, ключи не нужны.">
+<link rel="canonical" href="https://mihaspb.github.io/spi-lessons/m4-z3/skills-list.html">
+<style>
+@font-face { font-family:'Inter'; src:url(files/inter-400.ttf) format('truetype'); font-weight:400; font-display:swap; }
+@font-face { font-family:'Inter'; src:url(files/inter-500.ttf) format('truetype'); font-weight:500; font-display:swap; }
+@font-face { font-family:'Inter'; src:url(files/inter-600.ttf) format('truetype'); font-weight:600; font-display:swap; }
+@font-face { font-family:'Inter'; src:url(files/inter-700.ttf) format('truetype'); font-weight:700; font-display:swap; }
+@font-face { font-family:'Inter'; src:url(files/inter-800.ttf) format('truetype'); font-weight:800; font-display:swap; }
+:root {
+  --bg:#FAFAFA; --bg-card:#FFFFFF; --bg-dark:#111111; --text:#111111; --text-dim:#6B7280;
+  --text-white:#FFFFFF; --accent:#FF6B00; --border:#E5E7EB;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Inter', ui-sans-serif, system-ui, sans-serif; background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; }
+.hero { background:var(--bg-dark); color:var(--text-white); padding:56px 24px 52px; }
+.hero-in { max-width:1100px; margin:0 auto; }
+.kicker { font-family:ui-monospace,'JetBrains Mono',monospace; font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:#8A8F98; margin-bottom:22px; }
+.hero h1 { font-size:clamp(30px,4.6vw,50px); font-weight:800; letter-spacing:-.025em; line-height:1.1; max-width:18ch; }
+.hero h1 span { color:var(--accent); }
+.hero .lead { margin-top:18px; font-size:17px; line-height:1.55; color:#C7CBD1; max-width:62ch; }
+.badge { display:inline-flex; align-items:center; margin-top:26px; font-family:ui-monospace,'JetBrains Mono',monospace; font-size:11px; font-weight:500; letter-spacing:.08em; text-transform:uppercase; padding:6px 12px; border-radius:5px; background:rgba(255,107,0,.14); color:#FF8A3D; border:1px solid rgba(255,107,0,.28); }
+.wrap { max-width:1100px; margin:0 auto; padding:40px 24px 64px; }
+.show-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:4px; }
+.show-cat { background:var(--bg-card); border:1px solid var(--border); border-radius:12px; padding:13px 14px; }
+.show-cat-name { font-size:14px; font-weight:700; margin-bottom:9px; color:var(--text); }
+.show-item { font-size:13px; line-height:1.4; padding:7px 0; border-top:1px solid #EEF0F3; }
+.show-item:first-of-type { border-top:none; }
+.show-item b { display:block; font-family:ui-monospace,'JetBrains Mono',monospace; font-size:12.5px; color:var(--accent); font-weight:600; }
+.show-item span { color:var(--text-dim); }
+.show-item b a { color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(255,107,0,.25); }
+.show-item b a:hover { border-bottom-color:var(--accent); }
+.callout { display:flex; gap:14px; background:#FFF7ED; border:1px solid #FED7AA; border-left:3px solid var(--accent); border-radius:10px; padding:15px 19px; margin-top:20px; }
+.callout-icon { font-size:18px; flex-shrink:0; margin-top:1px; }
+.callout-text { font-size:14px; line-height:1.6; color:#92400E; }
+.callout.danger { background:#FEF2F2; border-color:#FECACA; border-left-color:#EF4444; }
+.callout.danger .callout-text { color:#991B1B; }
+.callout.danger .callout-text strong { color:#7F1D1D; }
+.foot { margin-top:34px; padding-top:22px; border-top:1px solid var(--border); font-size:15px; color:var(--text-dim); }
+.foot a { color:#B84E00; font-weight:600; text-decoration:none; }
+.foot a:hover { text-decoration:underline; }
+.foot .links { display:flex; gap:22px; flex-wrap:wrap; margin-bottom:14px; }
+@media (max-width:900px) { .show-grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:620px) { .show-grid { grid-template-columns:1fr; } .hero { padding:40px 20px 36px; } }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-in">
+    <div class="kicker">Школа практического инвестирования · Модуль 4 · Занятие 4.3</div>
+    <h1>Что уже <span>готово</span> под ваши задачи</h1>
+    <p class="lead">Все проверены · ключи не нужны. Готовые скиллы из публичных каталогов: 22 штуки в девяти категориях, с ссылками на репозиторий.</p>
+    <div class="badge">Все проверены · ключи не нужны</div>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="show-grid">
+    <div class="show-cat"><div class="show-cat-name">✍️ Текст</div><div class="show-item"><b><a href="https://github.com/blader/humanizer" target="_blank" rel="noopener">humanizer</a></b><span>убрать следы нейросети</span></div><div class="show-item"><b><a href="https://github.com/analystacademy/claude-skills" target="_blank" rel="noopener">hatchet</a></b><span>сократить вдвое без потерь</span></div></div><div class="show-cat"><div class="show-cat-name">📄 Документы</div><div class="show-item"><b><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">docx · xlsx</a></b><span>Word и Excel под ключ</span></div><div class="show-item"><b><a href="https://github.com/anthropics/skills" target="_blank" rel="noopener">pdf · pptx</a></b><span>разобрать PDF, собрать презентацию</span></div></div><div class="show-cat"><div class="show-cat-name">📐 Документация</div><div class="show-item"><b><a href="https://github.com/phucnt-bazone-vietnam/use-case-writer" target="_blank" rel="noopener">use-case-writer</a></b><span>из звонка — сценарии использования</span></div><div class="show-item"><b><a href="https://github.com/moirafe1094-Fe/prd-writing-skill" target="_blank" rel="noopener">prd-writing-skill</a></b><span>описание продукта для разработки</span></div><div class="show-item"><b><a href="https://github.com/phucnt-bazone-vietnam/ba-zone-user-story-ac-writer" target="_blank" rel="noopener">user-story-writer</a></b><span>задачи разработчику с критериями</span></div></div><div class="show-cat"><div class="show-cat-name">🔍 Проверка</div><div class="show-item"><b><a href="https://github.com/petar-nauka/fact-check-skill" target="_blank" rel="noopener">fact-check-skill</a></b><span>проверить факты, показать источник</span></div><div class="show-item"><b><a href="https://github.com/analystacademy/claude-skills" target="_blank" rel="noopener">factcheck</a></b><span>разбор текста по утверждениям</span></div></div><div class="show-cat"><div class="show-cat-name">📥 Источники</div><div class="show-item"><b><a href="https://github.com/michalparkola/tapestry-skills" target="_blank" rel="noopener">youtube-transcript</a></b><span>видео — в чистый конспект</span></div><div class="show-item"><b><a href="https://github.com/michalparkola/tapestry-skills" target="_blank" rel="noopener">article-extractor</a></b><span>статья — в текст без мусора</span></div></div><div class="show-cat"><div class="show-cat-name">⚖️ Договоры</div><div class="show-item"><b><a href="https://github.com/zubair-trabzada/ai-legal-claude" target="_blank" rel="noopener">legal-plain</a></b><span>договор на человеческий язык</span></div><div class="show-item"><b><a href="https://github.com/zubair-trabzada/ai-legal-claude" target="_blank" rel="noopener">legal-risks</a></b><span>риски по пунктам</span></div><div class="show-item"><b><a href="https://github.com/zubair-trabzada/ai-legal-claude" target="_blank" rel="noopener">legal-compare</a></b><span>сравнить две версии</span></div></div><div class="show-cat"><div class="show-cat-name">📊 Данные и отзывы</div><div class="show-item"><b><a href="https://github.com/phuryn/pm-skills" target="_blank" rel="noopener">sentiment-analysis</a></b><span>разбор отзывов пачкой</span></div><div class="show-item"><b><a href="https://github.com/phuryn/pm-skills" target="_blank" rel="noopener">cohort-analysis</a></b><span>динамика продаж по когортам</span></div><div class="show-item"><b><a href="https://github.com/phuryn/pm-skills" target="_blank" rel="noopener">summarize-meeting</a></b><span>из встречи — решения и задачи</span></div></div><div class="show-cat"><div class="show-cat-name">🎓 Обучение</div><div class="show-item"><b><a href="https://github.com/dair-ai/dair-academy-plugins" target="_blank" rel="noopener">lesson-generator</a></b><span>курс с тестами и карточками</span></div><div class="show-item"><b><a href="https://github.com/dair-ai/dair-academy-plugins" target="_blank" rel="noopener">learn</a></b><span>объяснит тему с проверкой</span></div><div class="show-item"><b><a href="https://github.com/dair-ai/dair-academy-plugins" target="_blank" rel="noopener">youtube-notetaker</a></b><span>доклад — в учебный конспект</span></div></div><div class="show-cat"><div class="show-cat-name">🧑‍⚖️ Критика</div><div class="show-item"><b><a href="https://github.com/wan-huiyan/agent-review-panel" target="_blank" rel="noopener">agent-review-panel</a></b><span>консилиум экспертов на ваш текст</span></div><div class="show-item"><b><a href="https://github.com/juanallo/six-hats-skill" target="_blank" rel="noopener">six-hats</a></b><span>шесть шляп: риски, плюсы, идеи</span></div></div>
+  </div>
+
+  <div class="callout">
+    <div class="callout-icon">🎯</div>
+    <div class="callout-text">Названия кликабельные — откройте и почитайте, прежде чем ставить. Павлу — договоры, Александру — данные, Марии и Ольге — обучение, Артёму — документация. Полный список уйдёт в чат.</div>
+  </div>
+
+  <div class="callout danger">
+    <div class="callout-icon">⚠️</div>
+    <div class="callout-text"><strong>Чужой скилл — это чужая программа.</strong> Скилл — исполняемая инструкция для агента, у которого есть доступ к вашим файлам. Ставить чужой скилл = ставить программу.</div>
+  </div>
+
+  <div class="foot">
+    <div class="links">
+      <a href="index.html">← К презентации занятия</a>
+      <a href="files/skills_list.md">Список в Markdown</a>
+      <a href="https://mihaspb.github.io/spi-lessons/m4-z3/">Все материалы курса</a>
+    </div>
+    Материалы занятия 3 «Скиллы и повторяемые инструкции» · Модуль 4 «Персональный помощник» · Курс по ИИ ШПИ.<br>
+    Названия и описания скиллов — со слайда презентации.
+  </div>
+</div>
+
+</body>
+</html>
