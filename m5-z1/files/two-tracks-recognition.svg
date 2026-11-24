@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 -104 1060 1904" width="1060" height="1904" style="background:white;font-family:Arial,Helvetica,sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<polyline points="128,78 128,172" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="199,78 199,88 406,88 406,172" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="128,238 128,332" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="406,238 406,332" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="128,398 128,492" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="406,398 406,408 208,408 208,492" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="168,558 168,568 261,568 261,652" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="397,558 397,568 347,568 347,652" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="304,718 304,812" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="304,878 304,888 397,888 397,972" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="461,558 461,972" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="429,1038 429,1132" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="429,1198 429,1292" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="429,1358 429,1452" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="56" y="12" width="215" height="66" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+<text x="163.5" y="39.75" font-size="15" text-anchor="middle" fill="#9c36b5">Разрешённый звонок</text>
+<text x="163.5" y="58.5" font-size="15" text-anchor="middle" fill="#9c36b5">две дорожки телефонии</text>
+<rect x="12" y="172" width="232" height="66" rx="8" fill="#e9ecef" stroke="#868e96" stroke-width="2"/>
+<text x="128.0" y="199.75" font-size="15" text-anchor="middle" fill="#868e96">Аудиодорожка A</text>
+<text x="128.0" y="218.5" font-size="15" text-anchor="middle" fill="#868e96">участник — из источника</text>
+<rect x="290" y="172" width="232" height="66" rx="8" fill="#e9ecef" stroke="#868e96" stroke-width="2"/>
+<text x="406.0" y="199.75" font-size="15" text-anchor="middle" fill="#868e96">Аудиодорожка B</text>
+<text x="406.0" y="218.5" font-size="15" text-anchor="middle" fill="#868e96">участник — из источника</text>
+<rect x="33" y="332" width="190" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="128.0" y="359.75" font-size="15" text-anchor="middle" fill="#1971c2">Распознавание A</text>
+<text x="128.0" y="378.5" font-size="15" text-anchor="middle" fill="#1971c2">текст и таймкоды</text>
+<rect x="311" y="332" width="190" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="406.0" y="359.75" font-size="15" text-anchor="middle" fill="#1971c2">Распознавание B</text>
+<text x="406.0" y="378.5" font-size="15" text-anchor="middle" fill="#1971c2">текст и таймкоды</text>
+<rect x="48" y="492" width="240" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="168.0" y="519.75" font-size="15" text-anchor="middle" fill="#1971c2">Собрать по таймкодам</text>
+<text x="168.0" y="538.5" font-size="15" text-anchor="middle" fill="#1971c2">сохранить исходный текст</text>
+<rect x="175" y="652" width="258" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="304.0" y="679.75" font-size="15" text-anchor="middle" fill="#1971c2">LLM 1 · подготовка текста</text>
+<text x="304.0" y="698.5" font-size="15" text-anchor="middle" fill="#1971c2">ссылки на исходные реплики</text>
+<rect x="188" y="812" width="232" height="66" rx="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+<text x="304.0" y="839.75" font-size="15" text-anchor="middle" fill="#2f9e44">Проверить привязки</text>
+<text x="304.0" y="858.5" font-size="15" text-anchor="middle" fill="#2f9e44">и сохранение содержания</text>
+<rect x="334" y="972" width="190" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="429.0" y="999.75" font-size="15" text-anchor="middle" fill="#1971c2">LLM 2 · оценка</text>
+<text x="429.0" y="1018.5" font-size="15" text-anchor="middle" fill="#1971c2">метрики и саммари</text>
+<rect x="313" y="1132" width="232" height="66" rx="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+<text x="429.0" y="1159.75" font-size="15" text-anchor="middle" fill="#2f9e44">Проверить ответ</text>
+<text x="429.0" y="1178.5" font-size="15" text-anchor="middle" fill="#2f9e44">шкалы и исходные цитаты</text>
+<rect x="313" y="1292" width="232" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="429.0" y="1319.75" font-size="15" text-anchor="middle" fill="#0c8599">Сохранить результаты</text>
+<text x="429.0" y="1338.5" font-size="15" text-anchor="middle" fill="#0c8599">версии входов и моделей</text>
+<rect x="334" y="1452" width="190" height="66" rx="8" fill="#d0bfff" stroke="#6741d9" stroke-width="2"/>
+<text x="429.0" y="1479.75" font-size="15" text-anchor="middle" fill="#6741d9">Карточка и отчёт</text>
+<text x="429.0" y="1498.5" font-size="15" text-anchor="middle" fill="#6741d9">проверка по аудио</text>
+<rect x="334" y="492" width="190" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="429.0" y="519.75" font-size="15" text-anchor="middle" fill="#0c8599">Реестр промптов</text>
+<text x="429.0" y="538.5" font-size="15" text-anchor="middle" fill="#0c8599">шаблоны и версии</text>
+<text x="12" y="-52.4" font-size="24" text-anchor="start" fill="#e8590c">Две дорожки → текст → две модели</text>
+<text x="12" y="1566.4" font-size="16" text-anchor="start" fill="#1e1e1e">ЛЕГЕНДА</text>
+<rect x="12" y="1578" width="26" height="22" rx="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+<text x="46" y="1591.7" font-size="13" text-anchor="start" fill="#1e1e1e">Проверка / решение</text>
+<rect x="12" y="1612" width="26" height="22" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="46" y="1625.7" font-size="13" text-anchor="start" fill="#1e1e1e">Обработка</text>
+<rect x="12" y="1646" width="26" height="22" rx="8" fill="#d0bfff" stroke="#6741d9" stroke-width="2"/>
+<text x="46" y="1659.7" font-size="13" text-anchor="start" fill="#1e1e1e">Финал / публикация</text>
+<rect x="12" y="1680" width="26" height="22" rx="8" fill="#e9ecef" stroke="#868e96" stroke-width="2"/>
+<text x="46" y="1693.7" font-size="13" text-anchor="start" fill="#1e1e1e">Состояние / файлы</text>
+<rect x="12" y="1714" width="26" height="22" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="46" y="1727.7" font-size="13" text-anchor="start" fill="#1e1e1e">База / хранилище</text>
+<rect x="12" y="1748" width="26" height="22" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+<text x="46" y="1761.7" font-size="13" text-anchor="start" fill="#1e1e1e">Внешний сервис</text>
+</svg>

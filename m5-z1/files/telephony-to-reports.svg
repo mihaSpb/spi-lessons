@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 -104 1060 1584" width="1060" height="1584" style="background:white;font-family:Arial,Helvetica,sans-serif">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="context-stroke"/></marker></defs>
+<polyline points="372,78 372,172" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="339,238 339,248 188,248 188,332" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="120,238 120,332" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="154,398 154,492" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="154,558 154,568 359,568 359,652" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="404,238 404,248 406,248 406,332" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="406,398 406,652" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="543,558 543,568 454,568 454,652" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="374,718 374,812" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="438,718 438,728 634,728 634,812" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="374,878 374,972" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="374,1038 374,1132" fill="none" stroke="#495057" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="277" y="12" width="190" height="66" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+<text x="372.0" y="39.75" font-size="15" text-anchor="middle" fill="#9c36b5">Телефония / CRM</text>
+<text x="372.0" y="58.5" font-size="15" text-anchor="middle" fill="#9c36b5">и ручная загрузка</text>
+<rect x="273" y="172" width="197" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="371.5" y="199.75" font-size="15" text-anchor="middle" fill="#1971c2">Приём звонка</text>
+<text x="371.5" y="218.5" font-size="15" text-anchor="middle" fill="#1971c2">и двух аудиодорожек</text>
+<rect x="51" y="332" width="206" height="66" rx="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+<text x="154.0" y="359.75" font-size="15" text-anchor="middle" fill="#2f9e44">Права, чек-лист</text>
+<text x="154.0" y="378.5" font-size="15" text-anchor="middle" fill="#2f9e44">и разрешение запуска</text>
+<rect x="59" y="492" width="190" height="66" rx="8" fill="#e9ecef" stroke="#868e96" stroke-width="2"/>
+<text x="154.0" y="519.75" font-size="15" text-anchor="middle" fill="#868e96">Устойчивая очередь</text>
+<text x="154.0" y="538.5" font-size="15" text-anchor="middle" fill="#868e96">и состояния этапов</text>
+<rect x="311" y="652" width="190" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="406.0" y="679.75" font-size="15" text-anchor="middle" fill="#1971c2">Обработчики</text>
+<text x="406.0" y="698.5" font-size="15" text-anchor="middle" fill="#1971c2">конвейера анализа</text>
+<rect x="262" y="812" width="223" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="373.5" y="839.75" font-size="15" text-anchor="middle" fill="#0c8599">Проверенные результаты</text>
+<text x="373.5" y="858.5" font-size="15" text-anchor="middle" fill="#0c8599">и версии запуска</text>
+<rect x="262" y="972" width="223" height="66" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="373.5" y="999.75" font-size="15" text-anchor="middle" fill="#1971c2">Карточки и отчёты</text>
+<text x="373.5" y="1018.5" font-size="15" text-anchor="middle" fill="#1971c2">по разрешённой выборке</text>
+<rect x="254" y="1132" width="240" height="66" rx="8" fill="#d0bfff" stroke="#6741d9" stroke-width="2"/>
+<text x="374.0" y="1159.75" font-size="15" text-anchor="middle" fill="#6741d9">Веб-интерфейс</text>
+<text x="374.0" y="1178.5" font-size="15" text-anchor="middle" fill="#6741d9">руководителя / менеджера</text>
+<rect x="12" y="172" width="215" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="119.5" y="199.75" font-size="15" text-anchor="middle" fill="#0c8599">Организации и проекты</text>
+<text x="119.5" y="218.5" font-size="15" text-anchor="middle" fill="#0c8599">права и политики</text>
+<rect x="303" y="332" width="206" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="406.0" y="359.75" font-size="15" text-anchor="middle" fill="#0c8599">Защищённое хранилище</text>
+<text x="406.0" y="378.5" font-size="15" text-anchor="middle" fill="#0c8599">аудио и артефактов</text>
+<rect x="435" y="492" width="215" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="542.5" y="519.75" font-size="15" text-anchor="middle" fill="#0c8599">Чек-листы и промпты</text>
+<text x="542.5" y="538.5" font-size="15" text-anchor="middle" fill="#0c8599">опубликованные версии</text>
+<rect x="531" y="812" width="206" height="66" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="634.0" y="839.75" font-size="15" text-anchor="middle" fill="#0c8599">Учёт использования</text>
+<text x="634.0" y="858.5" font-size="15" text-anchor="middle" fill="#0c8599">оплата — по политике</text>
+<text x="12" y="-52.4" font-size="24" text-anchor="start" fill="#e8590c">Речевая аналитика · сервис целиком</text>
+<text x="12" y="1246.4" font-size="16" text-anchor="start" fill="#1e1e1e">ЛЕГЕНДА</text>
+<rect x="12" y="1258" width="26" height="22" rx="8" fill="#b2f2bb" stroke="#2f9e44" stroke-width="2"/>
+<text x="46" y="1271.7" font-size="13" text-anchor="start" fill="#1e1e1e">Проверка / решение</text>
+<rect x="12" y="1292" width="26" height="22" rx="8" fill="#a5d8ff" stroke="#1971c2" stroke-width="2"/>
+<text x="46" y="1305.7" font-size="13" text-anchor="start" fill="#1e1e1e">Обработка</text>
+<rect x="12" y="1326" width="26" height="22" rx="8" fill="#d0bfff" stroke="#6741d9" stroke-width="2"/>
+<text x="46" y="1339.7" font-size="13" text-anchor="start" fill="#1e1e1e">Финал / публикация</text>
+<rect x="12" y="1360" width="26" height="22" rx="8" fill="#e9ecef" stroke="#868e96" stroke-width="2"/>
+<text x="46" y="1373.7" font-size="13" text-anchor="start" fill="#1e1e1e">Состояние / файлы</text>
+<rect x="12" y="1394" width="26" height="22" rx="8" fill="#99e9f2" stroke="#0c8599" stroke-width="2"/>
+<text x="46" y="1407.7" font-size="13" text-anchor="start" fill="#1e1e1e">База / хранилище</text>
+<rect x="12" y="1428" width="26" height="22" rx="8" fill="#eebefa" stroke="#9c36b5" stroke-width="2"/>
+<text x="46" y="1441.7" font-size="13" text-anchor="start" fill="#1e1e1e">Внешний сервис</text>
+</svg>
